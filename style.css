@@ -3,6 +3,9 @@
     border: 4px solid blue;
     padding: 4px;
     gap: 8px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 0;
   }
   
   
@@ -10,9 +13,9 @@
     background: peachpuff;
     border: 4px solid brown;
     height: 100px;
-    width: 250px;
-     flex: 1 1 auto;
-  }
+    flex:1;
+    gap: 2rem;
+    }
   .flex-container .two {
-    flex-shrink: 0;
+   
   }
